@@ -26,7 +26,7 @@ jobs:
         run: pip install -r ./requirements.txt 
         
       - name: '运行签到脚本'  
-        run: python3 3floor_sign.py 
+        run: python3 3floor_sign2.py 
         env:
             username: ${{ secrets.username2 }}
             password: ${{ secrets.password2 }}
