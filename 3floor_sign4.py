@@ -19,7 +19,7 @@ notice = os.environ["notice"]
 #手机号或邮箱
 username = os.environ["username4"]
 #密码明文
-password = os.environ["password4"]
+password = os.environ["password"]
 
 global content  #设置一个全局参数存储打印信息
 contents = ''
