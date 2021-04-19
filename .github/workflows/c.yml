@@ -29,7 +29,7 @@ jobs:
         run: python3 3floor_sign.py 
         env:
             username: ${{ secrets.username2 }}
-            password: ${{ secrets.password2 }}
+            password: ${{ secrets.password }}
             dingding: ${{ secrets.dingding }}
             SCKEY:   ${{ secrets.SCKEY }}
             notice:   ${{ secrets.notice }} 
